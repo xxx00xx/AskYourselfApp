@@ -16,16 +16,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GMl-dM-75d">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="GMl-dM-75d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SAu-Ju-n9E"/>
-                            <constraint firstAttribute="bottom" secondItem="GMl-dM-75d" secondAttribute="bottom" id="We4-0y-Mif"/>
-                            <constraint firstItem="GMl-dM-75d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YsQ-KR-CkS"/>
-                            <constraint firstItem="GMl-dM-75d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aaU-6N-l6h"/>
+                            <constraint firstItem="GMl-dM-75d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="amL-6y-MhG"/>
+                            <constraint firstItem="GMl-dM-75d" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mCc-FL-piI"/>
+                            <constraint firstItem="GMl-dM-75d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qsm-z6-jUm"/>
+                            <constraint firstItem="GMl-dM-75d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sg3-jZ-iAk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -53,7 +53,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BCC-4P-Crl">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BCC-4P-Crl">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
@@ -81,10 +81,13 @@
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="QuestionerTableView" destination="BCC-4P-Crl" id="EnB-dr-jLy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wVe-ez-TK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1943" y="130"/>
+            <point key="canvasLocation" x="1942.0289855072465" y="129.91071428571428"/>
         </scene>
         <!--Title-->
         <scene sceneID="g24-8T-L4h">

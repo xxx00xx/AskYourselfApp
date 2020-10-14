@@ -19,10 +19,15 @@
 		E2851CB22531C61300127D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2851CB12531C61300127D01 /* SceneDelegate.swift */; };
 		E2851CB42531C61300127D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2851CB32531C61300127D01 /* ViewController.swift */; };
 		E2851CB72531C61300127D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2851CB52531C61300127D01 /* Main.storyboard */; };
-		E2851CB92531C61600127D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2851CB82531C61600127D01 /* Assets.xcassets */; };
 		E2851CBC2531C61600127D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2851CBA2531C61600127D01 /* LaunchScreen.storyboard */; };
 		E2851CC72531C61700127D01 /* ChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2851CC62531C61700127D01 /* ChatAppTests.swift */; };
 		E2851CD22531C61700127D01 /* ChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2851CD12531C61700127D01 /* ChatAppUITests.swift */; };
+		E29C2CAA2536DE5A00C5E04B /* QuestionerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29C2CA92536DE5A00C5E04B /* QuestionerTableViewCell.xib */; };
+		E29C2CAC2536E02D00C5E04B /* QuestionerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29C2CAB2536E02D00C5E04B /* QuestionerTableViewCell.swift */; };
+		E29C2CAE2536E6C700C5E04B /* sushi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E29C2CAD2536E6C700C5E04B /* sushi.jpeg */; };
+		E29C2CB02536EEE400C5E04B /* ChatInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29C2CAF2536EEE400C5E04B /* ChatInputAccessoryView.xib */; };
+		E29C2CB22536F09A00C5E04B /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29C2CB12536F09A00C5E04B /* ChatInputAccessoryView.swift */; };
+		E29C2CB42536FD9800C5E04B /* sendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E29C2CB32536FD9800C5E04B /* sendButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +66,6 @@
 		E2851CB12531C61300127D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2851CB32531C61300127D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2851CB62531C61300127D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2851CB82531C61600127D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2851CBB2531C61600127D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2851CBD2531C61600127D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2851CC22531C61700127D01 /* ChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,12 @@
 		E2851CCD2531C61700127D01 /* ChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2851CD12531C61700127D01 /* ChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITests.swift; sourceTree = "<group>"; };
 		E2851CD32531C61700127D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29C2CA92536DE5A00C5E04B /* QuestionerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionerTableViewCell.xib; sourceTree = "<group>"; };
+		E29C2CAB2536E02D00C5E04B /* QuestionerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionerTableViewCell.swift; sourceTree = "<group>"; };
+		E29C2CAD2536E6C700C5E04B /* sushi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushi.jpeg; sourceTree = "<group>"; };
+		E29C2CAF2536EEE400C5E04B /* ChatInputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatInputAccessoryView.xib; sourceTree = "<group>"; };
+		E29C2CB12536F09A00C5E04B /* ChatInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputAccessoryView.swift; sourceTree = "<group>"; };
+		E29C2CB32536FD9800C5E04B /* sendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendButton.png; sourceTree = "<group>"; };
 		EFD3519BD41654406F1BF2C0 /* Pods_ChatApp_ChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp_ChatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,12 +165,17 @@
 				E252AA442532350300BDD317 /* QuestionerViewController.swift */,
 				E252AA462532355200BDD317 /* RespondentViewController.swift */,
 				E2851CB52531C61300127D01 /* Main.storyboard */,
-				E2851CB82531C61600127D01 /* Assets.xcassets */,
+				E29C2CAD2536E6C700C5E04B /* sushi.jpeg */,
+				E29C2CB32536FD9800C5E04B /* sendButton.png */,
 				E2851CBA2531C61600127D01 /* LaunchScreen.storyboard */,
 				E2851CBD2531C61600127D01 /* Info.plist */,
 				E252AA482532356900BDD317 /* Chat.swift */,
 				E252AA40253234A400BDD317 /* ChatTableViewCell.swift */,
 				E252AA41253234A400BDD317 /* ChatTableViewCell.xib */,
+				E29C2CAB2536E02D00C5E04B /* QuestionerTableViewCell.swift */,
+				E29C2CA92536DE5A00C5E04B /* QuestionerTableViewCell.xib */,
+				E29C2CB12536F09A00C5E04B /* ChatInputAccessoryView.swift */,
+				E29C2CAF2536EEE400C5E04B /* ChatInputAccessoryView.xib */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -292,9 +307,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29C2CB42536FD9800C5E04B /* sendButton.png in Resources */,
+				E29C2CB02536EEE400C5E04B /* ChatInputAccessoryView.xib in Resources */,
+				E29C2CAE2536E6C700C5E04B /* sushi.jpeg in Resources */,
 				E2851CBC2531C61600127D01 /* LaunchScreen.storyboard in Resources */,
+				E29C2CAA2536DE5A00C5E04B /* QuestionerTableViewCell.xib in Resources */,
 				E252AA43253234A400BDD317 /* ChatTableViewCell.xib in Resources */,
-				E2851CB92531C61600127D01 /* Assets.xcassets in Resources */,
 				E2851CB72531C61300127D01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,8 +443,10 @@
 			files = (
 				E2851CB42531C61300127D01 /* ViewController.swift in Sources */,
 				E252AA42253234A400BDD317 /* ChatTableViewCell.swift in Sources */,
+				E29C2CAC2536E02D00C5E04B /* QuestionerTableViewCell.swift in Sources */,
 				E2851CB02531C61300127D01 /* AppDelegate.swift in Sources */,
 				E2851CB22531C61300127D01 /* SceneDelegate.swift in Sources */,
+				E29C2CB22536F09A00C5E04B /* ChatInputAccessoryView.swift in Sources */,
 				E252AA492532356900BDD317 /* Chat.swift in Sources */,
 				E252AA472532355200BDD317 /* RespondentViewController.swift in Sources */,
 				E252AA452532350300BDD317 /* QuestionerViewController.swift in Sources */,

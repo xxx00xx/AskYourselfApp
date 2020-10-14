@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="142" id="f4P-ae-c5o" customClass="QuestionerTableViewCell" customModule="MessengerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f4P-ae-c5o" id="nUU-jf-Fgd">
+                <rect key="frame" x="0.0" y="0.0" width="511" height="142"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sushi.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="gRs-sc-3dV">
+                        <rect key="frame" x="15" y="41" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gRs-sc-3dV" secondAttribute="height" multiplier="1:1" id="ENm-dq-OTI"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="Pw4-lL-g5A"/>
+                            <constraint firstAttribute="width" constant="60" id="te7-uT-P88"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="ここにメッセージが入ります．" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9E-va-5Lz">
+                        <rect key="frame" x="85" y="25" width="250" height="92"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="IYu-aZ-5DW"/>
+                            <constraint firstAttribute="width" constant="250" id="lOC-ud-IAL"/>
+                        </constraints>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HH:mm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiA-zw-cdf">
+                        <rect key="frame" x="340" y="97.5" width="42.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Y9E-va-5Lz" firstAttribute="centerY" secondItem="nUU-jf-Fgd" secondAttribute="centerY" id="299-Vo-6WH"/>
+                    <constraint firstItem="gRs-sc-3dV" firstAttribute="leading" secondItem="nUU-jf-Fgd" secondAttribute="leadingMargin" constant="15" id="EUa-AI-dLB"/>
+                    <constraint firstItem="gRs-sc-3dV" firstAttribute="leading" secondItem="nUU-jf-Fgd" secondAttribute="leading" constant="15" id="FUf-fa-ASZ"/>
+                    <constraint firstItem="Y9E-va-5Lz" firstAttribute="leading" secondItem="gRs-sc-3dV" secondAttribute="trailing" constant="10" id="G4H-8d-L4f"/>
+                    <constraint firstItem="Y9E-va-5Lz" firstAttribute="bottom" secondItem="OiA-zw-cdf" secondAttribute="bottom" constant="5" id="Ovd-ln-82z" userLabel="Message Text View.bottom = Date Label.bottom + 5"/>
+                    <constraint firstItem="Y9E-va-5Lz" firstAttribute="top" secondItem="nUU-jf-Fgd" secondAttribute="top" constant="25" id="WSr-6x-I9D"/>
+                    <constraint firstItem="gRs-sc-3dV" firstAttribute="centerY" secondItem="nUU-jf-Fgd" secondAttribute="centerY" id="chs-Fh-bOm"/>
+                    <constraint firstAttribute="bottom" secondItem="Y9E-va-5Lz" secondAttribute="bottom" constant="25" id="eLe-HD-fwP"/>
+                    <constraint firstItem="OiA-zw-cdf" firstAttribute="leading" secondItem="Y9E-va-5Lz" secondAttribute="trailing" constant="5" id="ww0-IF-uH8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="OiA-zw-cdf" id="geN-Le-123"/>
+                <outlet property="messageTextView" destination="Y9E-va-5Lz" id="nQ3-ZT-aPA"/>
+                <outlet property="userImageView" destination="gRs-sc-3dV" id="2OD-L7-oUh"/>
+            </connections>
+            <point key="canvasLocation" x="38.405797101449281" y="-60.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sushi.jpeg" width="227" height="222"/>
+    </resources>
+</document>
