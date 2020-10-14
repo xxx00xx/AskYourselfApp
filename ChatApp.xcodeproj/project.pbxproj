@@ -56,7 +56,7 @@
 		E252AA442532350300BDD317 /* QuestionerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionerViewController.swift; sourceTree = "<group>"; };
 		E252AA462532355200BDD317 /* RespondentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondentViewController.swift; sourceTree = "<group>"; };
 		E252AA482532356900BDD317 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
-		E2851CAC2531C61300127D01 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2851CAC2531C61300127D01 /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2851CAF2531C61300127D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2851CB12531C61300127D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2851CB32531C61300127D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		E2851CAD2531C61300127D01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2851CAC2531C61300127D01 /* ChatApp.app */,
+				E2851CAC2531C61300127D01 /* MessengerApp.app */,
 				E2851CC22531C61700127D01 /* ChatAppTests.xctest */,
 				E2851CCD2531C61700127D01 /* ChatAppUITests.xctest */,
 			);
@@ -202,7 +202,7 @@
 			);
 			name = ChatApp;
 			productName = ChatApp;
-			productReference = E2851CAC2531C61300127D01 /* ChatApp.app */;
+			productReference = E2851CAC2531C61300127D01 /* MessengerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E2851CC12531C61700127D01 /* ChatAppTests */ = {
@@ -610,7 +610,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = anny.ChatApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MessengerApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -628,7 +628,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = anny.ChatApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MessengerApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
