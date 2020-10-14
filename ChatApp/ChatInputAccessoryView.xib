@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatInputAccessoryView" customModule="MessengerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="chatTextView" destination="xIq-Hs-SPG" id="wvh-Rr-98Q"/>
+                <outlet property="sendButton" destination="m9N-eo-OvC" id="eEd-bj-eM0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="591" height="149"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="メッセージがここに入ります．" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xIq-Hs-SPG">
+                    <rect key="frame" x="10" y="10" width="521" height="115"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9N-eo-OvC">
+                    <rect key="frame" x="541" y="65" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Cww-mr-YIN"/>
+                        <constraint firstAttribute="height" constant="40" id="btv-kz-zcG"/>
+                    </constraints>
+                    <state key="normal" image="sendButton.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="m9N-eo-OvC" firstAttribute="leading" secondItem="xIq-Hs-SPG" secondAttribute="trailing" constant="10" id="76w-GW-hL6"/>
+                <constraint firstItem="xIq-Hs-SPG" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="10" id="Hqb-8g-NGl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="m9N-eo-OvC" secondAttribute="trailing" constant="10" id="IKq-ZK-sqr"/>
+                <constraint firstItem="xIq-Hs-SPG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="QYj-jA-mwS"/>
+                <constraint firstItem="xIq-Hs-SPG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="dtW-7l-9O1"/>
+                <constraint firstAttribute="bottom" secondItem="xIq-Hs-SPG" secondAttribute="bottom" constant="10" id="l6Y-o9-afT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="296.37681159420293" y="-50.558035714285715"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sendButton.png" width="225" height="225"/>
+    </resources>
+</document>
